@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <script src="marsF.js"></script>
+    <link rel = "stylesheet" type = "text/css" href = "style.css" />
+    <title>Mars Weather</title>
+</head>
+
+<body>   
+    <div class="main_section">
+        <div>     
+            <h3 ><span id="today" class="calendar_date">000</span>.</h3> <!--today's date-->
+        </div> 
+        <div class= "sol_day_wrapper">
+            <h1 class="sol_day">On Mars, today is Sol <span id="currentSol">000</span></h1><!--today's Sol number-->
+        </div>
+        <div> 
+            <p class="temp_message">The max temp is <span id="maxFah">00</span>°C.</p><!--max temp from API-->
+            <p class="temp_message">The min temp is <span id="minFah">00</span>°C.</p><!--min temp from API-->
+            <div class="temp_button_wrapper">
+                <a href="index.html" class="temp_button">Celsius</a>
+            </div>
+        </div>
+    </div>
+    <div class="lower_background_color">
+        <p class="explaination">NASA's Daily weather measurements are taken on the surface of Mars at 
+            Elysium Planitia, a flat, smooth plain near Mars’ equator. "Sol" (borrowed from the Latin 
+            word for sun) is a solar day on Mars. Learn more by 
+            clicking <a class="nasa_link" href="https://www.nasa.gov/feature/jpl/insight-is-the-newest-mars-weather-service">here</a> .</p>
+    </div>
+</body>
+<footer class="footer">
+    <div>
+        <p class="credits">Jamie O'Beirne 2020</p>
+    </div>
+</footer>
+</html>
+
+
+
+
+

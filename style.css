@@ -1,0 +1,183 @@
+
+html, body {
+    height: 100%;
+    margin: 0;
+    --main-font: 'Bungee', cursive;
+    --secondary-font:'Roboto', sans-serif;
+    }
+
+.main_section{
+    background-image: url(images/mars2.jpg);
+
+     /* Full height */
+     height: 100%; 
+  
+     /* Center and scale the image nicely */
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+
+h1{
+    color:#FFFFFF;
+    font-family: var(--main-font);
+}
+
+h3{
+    margin: 0;
+}
+
+.calendar_date{
+    color: #dc916b; 
+    font-size: .8rem;
+    position: absolute;
+    right:10px;
+    top: 10px;  
+    font-family: var(--secondary-font);
+}
+
+
+.sol_day{
+    text-align: center;
+    font-size:3.1rem;
+    margin: 60px 20px 130px 20px;
+}
+
+
+p:nth-child(2){
+    margin-top: 15px;
+   
+}
+
+.temp_message{
+    color: #FFFFFF;
+    text-align: center;
+    font-size:1.4rem;
+    background-color: rgba(134, 105, 91, 0.75);
+    width:330px;
+    line-height: 2;
+    border-radius: 25px;
+    font-family: var(--secondary-font);
+    margin: 0 auto 0 auto;
+}
+
+
+.temp_button_wrapper{
+    text-align: center;
+    margin: 40px auto 20px auto;
+    background-color: #FFFFFF;
+    width: 120px;
+    border-radius: 45px;
+}
+
+
+.temp_button{
+    text-decoration: none;
+    font-size:.9rem;
+    color:#dc916b;
+    font-family: var(--secondary-font);
+}
+
+.temp_button_wrapper:hover{
+    background-color: #34c3eb;
+}
+
+.temp_button:hover{
+    color: #FFFFFF;
+}
+
+
+.explaination{
+    color: #dc916b;
+    font-size:1.1rem;
+    line-height: 1.5;
+    margin: 50px 30px 60px 30px;
+    font-family: var(--main-font);
+}
+
+.nasa_link:hover{
+    color: #34c3eb;
+}
+
+.footer{
+    width:100%;
+    height:230px;
+    background-color:#dc916b;    /*   #41372c;    #dc916b;    */
+    
+}
+.credits{
+    font-family: var(--secondary-font);
+    color: #FFFFFF;
+    font-size:1rem;
+    letter-spacing: 10px;
+    text-align: center;
+    padding: 100px 15px 10px 15px;
+}
+
+
+@media only screen and (min-width: 340px) and (max-width: 380px) {
+    .sol_day{
+        margin: 110px 20px 30px 20px;
+        }
+}
+
+@media only screen and (min-width: 480px) {
+    .calendar_date{
+        font-size: 20px; 
+    }
+
+    .temp_message{
+        width:380px;
+        margin:0 auto 0 auto;
+    }
+    
+}
+@media only screen and (min-width: 600px) {
+.sol_day{
+    margin: 110px 20px 150px 20px;
+    }
+}
+
+
+@media only screen and (min-width: 768px) {
+    .calendar_date{
+        right:30px;
+        top: 30px;    
+    } 
+    
+    .explaination{
+        font-size: 1.4rem;
+        margin: 100px 15% 150px 15%;
+        line-height: 2;
+        letter-spacing: 3px;
+    }
+    .credits{
+        letter-spacing: 14px;
+    }
+   
+}
+
+@media only screen and (min-width: 970px) {
+    .sol_day{
+        margin: 150px 20px 120px 20px;
+        letter-spacing: 17px;
+        }
+    
+    .temp_message{
+        width:480px;
+        letter-spacing: 3px;
+            
+    }
+
+    .calendar_date{
+        letter-spacing: 5px; 
+    }
+}
+
+@media only screen and (min-width: 1200px){
+    .sol_day{
+        margin: 170px 20px 180px 20px;
+        }
+}
+        
+
