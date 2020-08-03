@@ -8,7 +8,7 @@ html{
 
 
 .main_section{
-    background-image: url(mars2.jpg);
+    background-image: url(images/mars2.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -40,7 +40,7 @@ h3{
 .sol_day{
     text-align: center;
     font-size:6.2rem;
-    margin: 260px 20px 240px 20px;
+    margin: 260px 20px 270px 20px;
 }
 
 p:nth-child(2){
@@ -186,7 +186,7 @@ p:nth-child(2){
     .sol_day{
         font-size:3rem;
         letter-spacing: 14px;
-        margin: 160px 20px 180px 20px;
+        margin: 110px 20px 160px 20px;
     }      
     
     .temp_message{
