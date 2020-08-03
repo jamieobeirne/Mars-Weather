@@ -139,13 +139,14 @@ p:nth-child(2){
     }
 
     .calendar_date{ 
-    font-size: 1.2rem;
-    right:-170px;
+       font-size: 1.2rem;
+       right:-170px;
     }
-
+ 
     .sol_day{
         font-size:95px;
-        letter-spacing: 4px
+        letter-spacing: 4px;
+        margin: 180px 20px 180px 20px;
     }
 
     .temp_message{
@@ -153,12 +154,10 @@ p:nth-child(2){
         width:530px;
     }
 
-
     .explaination{
         font-size:1.8rem;
     }
     
-
     .credits{
         font-size:1.5rem;
         margin: 210px 90px 0px 90px;
@@ -187,6 +186,7 @@ p:nth-child(2){
     .sol_day{
         font-size:3rem;
         letter-spacing: 14px;
+        margin: 160px 20px 180px 20px;
     }      
     
     .temp_message{
@@ -227,14 +227,13 @@ p:nth-child(2){
 
     
     .credits{
-        font-size:1rem;
+        font-size:.9rem;
         letter-spacing: 17px;
         padding:85px 0 0 0;
     }
 
     .footer{
         height:180px;
-        
     }
 
    
