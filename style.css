@@ -8,7 +8,7 @@ html{
 
 
 .main_section{
-    background-image: url(mars2.jpg);
+    background-image: url(images/mars2.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -28,7 +28,6 @@ h3{
     margin:0;
 }
 
-
 .calendar_date{
     color: #dc916b; 
     font-size: 1.6rem;
@@ -40,8 +39,8 @@ h3{
 
 .sol_day{
     text-align: center;
-    font-size:6rem;
-    margin: 150px 20px 150px 20px;
+    font-size:6.2rem;
+    margin: 180px 20px 170px 20px;
 }
 
 p:nth-child(2){
@@ -62,18 +61,21 @@ p:nth-child(2){
 
 .temp_button_wrapper{
     text-align: center;
-    margin: 50px auto 20px auto;
+    margin: 55px auto 20px auto;
     background-color: #FFFFFF;
     width: 240px;
     border-radius: 45px;
-    height:40px;
+    height:45px;
+    display:table;
 }
 
 .temp_button{
     text-decoration: none;
-    font-size:1.6rem;
+    font-size:1.7rem;
     color:#dc916b;
     font-family: var(--secondary-font);
+    display: table-cell;
+    vertical-align: middle;
 }
 
 
