@@ -8,7 +8,7 @@ html{
 
 
 .main_section{
-    background-image: url(mars2.jpg);
+    background-image: url(images/mars2.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -125,7 +125,7 @@ p:nth-child(2){
 
 
 
-@media only screen and (min-device-width : 600px) and (max-device-width : 768px)   {
+@media only screen and (min-width : 600px) and (max-width : 768px)   {
      body{
         width: 1200px;
         margin: 0 auto;
@@ -165,7 +165,7 @@ p:nth-child(2){
     
 }
 
-@media only screen and (min-device-width : 769px)    {
+@media only screen and (min-width : 769px)    {
     body{
         width: 100%px;
         margin: 0 auto;
