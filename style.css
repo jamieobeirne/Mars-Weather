@@ -13,9 +13,10 @@ html{
     background-repeat: no-repeat;
     background-size: cover;
     margin:0;
-    height:1515px;
-    width: 1000px;
+    width: 100%;
+    height:1050px;
     z-index: -1;
+    background-attachment:fixed;
 }
 
 
@@ -30,17 +31,17 @@ h3{
 
 .calendar_date{
     color: #dc916b; 
-    font-size: 1.6rem;
+    font-size: .9rem;
     position: absolute;
-    right:40px;
+    right:55px;
     top: 40px;  
     font-family: var(--secondary-font);
 }
 
 .sol_day{
     text-align: center;
-    font-size:6.2rem;
-    margin: 260px 20px 270px 20px;
+    font-size:6.5rem;
+    margin: 180px 20px 40px 20px;
 }
 
 p:nth-child(2){
@@ -50,10 +51,10 @@ p:nth-child(2){
 .temp_message{
     color: #FFFFFF;
     text-align: center;
-    font-size:2.8rem;
+    font-size:1.5rem;
     background-color: rgba(134, 105, 91, 0.75);
-    width:730px;
-    line-height: 2;
+    width:530px;
+    line-height: 1.5;
     border-radius: 55px;
     font-family: var(--secondary-font);
     margin: 0 auto 0 auto;
@@ -61,17 +62,17 @@ p:nth-child(2){
 
 .temp_button_wrapper{
     text-align: center;
-    margin: 55px auto 20px auto;
+    margin: 85px auto 25px auto;
     background-color: #FFFFFF;
-    width: 240px;
+    width: 115px;
     border-radius: 45px;
-    height:45px;
+    height:25px;
     display:table;
 }
 
 .temp_button{
     text-decoration: none;
-    font-size:1.7rem;
+    font-size:.9rem;
     color:#dc916b;
     font-family: var(--secondary-font);
     display: table-cell;
@@ -110,13 +111,13 @@ p:nth-child(2){
 .footer{
     width:100%;
     height:330px;
-    background-color:#dc916b;    /*   #41372c;    #dc916b;    */
+    background-color:#dc916b;  /*   #41372c;    #dc916b;    */
 }
 
 .credits{
     font-family: var(--secondary-font);
     color: #FFFFFF;
-    font-size:2rem;
+    font-size:1rem;
     letter-spacing: 18px;
     text-align: center;
     padding: 150px 15px 10px 15px;
@@ -124,121 +125,64 @@ p:nth-child(2){
 
 
 
-
-@media only screen and (min-width : 600px) and (max-width : 768px)   {
-     body{
-        width: 1200px;
-        margin: 0 auto;
-    }
-
-    .main_section{
-        width: 100%;
-        height:1050px;
-        margin:auto;
-        padding:0;
-    }
-
-    .calendar_date{ 
-       font-size: 1.2rem;
-       right:-170px;
-    }
- 
+@media only screen and (max-width : 768px) {/***** start media break******************************/
     .sol_day{
-        font-size:95px;
-        letter-spacing: 4px;
-        margin: 180px 20px 180px 20px;
+        font-size:5rem;
+    }
+
+    .calendar_date{
+        font-size: .8rem;
+        right:1.2rem;
+        top: 1rem;  
     }
 
     .temp_message{
-        font-size:1.8rem;
-        width:530px;
-    }
-
-    .explaination{
-        font-size:1.8rem;
-    }
-    
-    .credits{
-        font-size:1.5rem;
-        margin: 210px 90px 0px 90px;
-    }
-    
-}
-
-@media only screen and (min-width : 769px)    {
-    body{
-        width: 100%px;
-        margin: 0 auto;
-    }
-    
-    .main_section{
-        width: 100%;
-        height:750px;
-        margin:auto;
-        padding:0;
-    }
-
-    .calendar_date{ 
-        font-size: 1rem;
-        right:40px;
-    }
-
-    .sol_day{
-        font-size:3rem;
-        letter-spacing: 14px;
-        margin: 110px 20px 160px 20px;
-    }      
-    
-    .temp_message{
-        font-size:1.2rem;
-        width:430px;
-        letter-spacing: 4px
-    }
-    
-    .temp_button{
-        font-size:.9rem;
-      ;
-    }
-
-    .temp_button_wrapper{
-        text-align: center;
-        margin: 50px auto 20px auto;
-        background-color: #FFFFFF;
-        width: 115px;
-        border-radius: 45px;
-        height:25px;
-    }
-
-    .explaination{
         font-size:1.1rem;
-        padding-right: 300px;
-        padding-left: 300px;
-        line-height: 3;
+        width:70%;
+        min-width:280px;
+        line-height: 2rem;
     }
+    .explaination{
+        font-size:1rem;
+    }
+
 
     .explaination:nth-child(1){
-        margin:140px 0 30px 0;
+        margin:100px 90px 22px 90px;
     }
 
-    .explaination:nth-child(2){
-        margin:0px 0 140px 0;;
-    }
-
-
-    
     .credits{
         font-size:.9rem;
-        letter-spacing: 17px;
-        padding:85px 0 0 0;
     }
-
-    .footer{
-        height:180px;
-    }
-
-   
-
-
 }
-        
+
+@media only screen and (max-width : 600px) {
+    .sol_day{
+        font-size:3.5rem;
+    }      
+    
+    .explaination:nth-child(1){
+        margin:100px 40px 22px 40px;
+    }
+    
+    .explaination:nth-child(2){
+        margin:0px 40px 100px 40px;
+    }
+
+
+    .credits{
+        letter-spacing: 5px;
+        padding: 150px 15px 10px 15px;
+    }
+    
+}
+
+@media only screen and (max-width : 500px) {
+    .sol_day{
+        font-size:3.1rem;
+        margin: 90px 20px 90px 20px;
+    }      
+}
+
+
 
